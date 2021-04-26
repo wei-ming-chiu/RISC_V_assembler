@@ -123,12 +123,12 @@ void main(void)
 		str.find(ANDI) != string::npos) {
 		int i = 0;
 		int X_recorder = 0;
-		char rd_I[3];
-		char rs_1_I[3];
-		char rd_b_I[5];
-		char rs1_b_I[5];
-		char funct3_I[4];
-		char imme_I[5];
+		char rd_I[3] ="";
+		char rs_1_I[3] ="";
+		char rd_b_I[5] ="";
+		char rs1_b_I[5] ="";
+		char funct3_I[4] =;
+		char imme_I[5] = "";
 		char imme_b_I[12];
 		char opcode_I[8];
 
@@ -406,12 +406,12 @@ void main(void)
 			str.find(AND) != string::npos ) {
 			int i = 0;
 			int X_recorder = 0;  //recorder x_register
-			char rd_R[3];
-			char rs_1_R[3];
-			char rs_2_R[3];
-			char rd_b_R[5];
-			char rs1_b_R[5];
-			char rs2_b_R[5];
+			char rd_R[3] = "";
+			char rs_1_R[3] = "";
+			char rs_2_R[3] = "";
+			char rd_b_R[5] = "";
+			char rs1_b_R[5] = "";
+			char rs2_b_R[5] = "";
 			//int rd,rs1,rs2;			
 			char opcode_R[8] = "0110011";
 			char funct5_R[6];
@@ -732,10 +732,10 @@ void main(void)
 			str.find(BGEU) != string::npos) {
 			int i = 0;
 			int X_recorder = 0;
-			char rs_1_SB[3];
-			char rs_2_SB[3];
-			char rs1_b_SB[5];
-			char rs2_b_SB[5];
+			char rs_1_SB[3] = "";
+			char rs_2_SB[3] = "";
+			char rs1_b_SB[5] = "";
+			char rs2_b_SB[5] = "";
 			char funct3_SB[4];
 			char opcode_SB[8] ="1100011";
 			int offset;
