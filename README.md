@@ -1,10 +1,10 @@
 # RISC_V_assembler
 使用C實現RISC-V Assembler
 ## rule
-1. 只能夠使用I,R,S type的指令，若為其它指令則顯示none
-2. I type指令只能使用decimal
-3. code必須存在txt 
-4. 若全部指令都執行完成時，則會顯示done
+1.輸入指令一律以小寫輸入
+2.結束程式後須輸入end以結束跳出程式
+
+ex.
 ## input
 ```
     add x2,x2,x23
