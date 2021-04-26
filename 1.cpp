@@ -7,7 +7,7 @@
 #include<stdbool.h>
 
 using namespace std;
-char machine_code_note[200][33];
+char machine_code_note[200][128];
 char label[200][20];
 int label1_addr, label2_addr, label3_addr, label4_addr, label5_addr;
 int label_count;
